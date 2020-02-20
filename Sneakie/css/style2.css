@@ -1,0 +1,93 @@
+.container {
+    height: 1897px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+header {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 30px solid black;
+    background-color: #EA3C3C;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-family: sneakers;
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size: 60px;
+    margin-top: 0.7em;
+}
+
+.name {
+    color: white;
+    font-family: polers free;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.section2 {
+    width: 100%;
+    background-color: #d6cece;
+    text-align: center;
+}
+
+.section2 img {
+    height: 220px;
+    width: 340px;
+}
+
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: centaur;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: centaur;
+    font-size: 35px;
+    margin-top:10px;
+}
+
+h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: centaur;
+    font-size: 22px;
+}
+
+footer {
+    height: 65px;
+    width: 100%;
+    background-color: #EA3C3C;
+    display: flex;
+    align-items: center;
+}
+
+#p3 {
+    text-align: right;
+    /* width: 40%; */
+    color: white;
+    font-size: 40px;
+    font-family: profession;
+    /* margin-right: 20px; */
+}
+
+.vector1 {
+    /* width: 60%; */
+    height: 50px;
+    width: 50px;
+    align-content: right;
+    margin-left: 40%
+}
+
+a {
+    text-decoration: none;
+}
