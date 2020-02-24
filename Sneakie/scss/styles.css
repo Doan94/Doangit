@@ -44,12 +44,12 @@ header {
   background-color: #EA3C3C;
   color: #FFFFFF;
   height: 65px;
-  border-top: black 30px solid;
+  border-top: #000000 30px solid;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .logo1 {
@@ -74,7 +74,7 @@ a {
 }
 
 .blanc {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .article1 {

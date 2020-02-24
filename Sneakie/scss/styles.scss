@@ -2,7 +2,7 @@ $color-red: #EA3C3C;
 $color-white: #FFFFFF;
 $color-black: #000000;
 $color-grey: #D6CECE;
-$color-grey2: #C4C4C4
+$color-grey2: #C4C4C4;
 
 
 @font-face{
@@ -34,15 +34,15 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #EA3C3C;
-    color: #FFFFFF;
+    background-color: $color-red;
+    color: $color-white;
     height: 65px;
-    border-top: black 30px solid;
+    border-top: $color-black 30px solid;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: $color-black;
 }
 
 .logo1 {
@@ -64,13 +64,13 @@ a {
 }
 
 .blanc {
-    background-color: white;
+    background-color: $color-white;
 }
 
 .article1 {
     height: 430px;
     width: 96%;
-    background-color: #D6CECE;
+    background-color: $color-grey;
     color: #383131;
     text-align: center;
     margin-top: -18px;
@@ -82,7 +82,7 @@ a {
 .article2 {
     display: flex;
     flex-direction: column;
-    background-color: #C4C4C4;
+    background-color: $color-grey2;
     color:#383131;
     text-align: center;
     margin-top: -10px;
@@ -109,7 +109,7 @@ a {
 }
 
 .section2 {
-    background-color: #D6CECE;
+    background-color: $color-grey;
 }
 
 .image1 {
@@ -126,7 +126,7 @@ a {
 footer {
     height: 65px;
     width: 100%;
-    background-color: #EA3C3C;
+    background-color: $color-red;
     text-align: center;
  
 }
@@ -134,7 +134,7 @@ footer {
 footer p {
     text-transform: uppercase;
     margin-top: 10px;
-    color: #FFFFFF;
+    color: $color-white;
     font-family: "Profession-Regular";
     text-align: center;
     font-size: 18px;
