@@ -1,0 +1,164 @@
+
+
+
+
+
+@font-face{
+    font-family: "Sneakers";
+    src: url(../fonts/Sneakers.ttf);
+}
+@font-face{
+    font-family: "Polers Free";
+    src: url(../fonts/Polers-Free.ttf);
+}
+@font-face{
+    font-family: "Profession-Regular";
+    src: url(../fonts/Profession-Regular.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 10%;
+    margin-left: 10%; */
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #EA3C3C;
+    color: #FFFFFF;
+    height: 65px;
+    border-top: black 30px solid;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.logo1 {
+    font-family: "Sneakers";
+    font-size: 60px;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.name1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: "Polers Free";
+    font-size: 50px;
+    padding-right: 20px;
+    
+}
+
+.blanc {
+    background-color: white;
+}
+
+.article1 {
+    height: 430px;
+    width: 96%;
+    background-color: #D6CECE;
+    color: #383131;
+    text-align: center;
+    margin-top: -18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.article2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #C4C4C4;
+    color:#383131;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    height: 195px;
+    margin-left: 2%;
+    margin-right: 2%; 
+}
+
+.baskets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.baskets .gauche,
+.baskets .droite {
+    display: flex;
+    flex-direction: column;
+}
+
+.baskets p {
+    margin-top: 5px;
+}
+
+.section2 {
+    background-color: #D6CECE;
+}
+
+.image1 {
+    width: 338px;
+    height: 236px;
+}
+
+.image2 {
+    width: 130px;
+    height: 90px;
+}
+
+
+footer {
+    height: 65px;
+    width: 100%;
+    background-color: #EA3C3C;
+    text-align: center;
+ 
+}
+
+footer p {
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-family: "Profession-Regular";
+    text-align: center;
+    font-size: 18px;
+}
+
+p {
+    font-family: centaur;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+h2 {
+    font-family: centaur;
+    font-size: 28px;
+}
+
+.article2 h2 {
+    font-family: centaur;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.titre2 {
+    font-family: "Profession-Regular";
+}
+
+/*media queries*/
+
