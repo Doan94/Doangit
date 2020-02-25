@@ -67,10 +67,20 @@ a {
 
 /*nav*/
 
-nav li {
-    display: inline;
-    justify-content: space-between;
-    padding-left: 15%;
+nav {
+    background-color: $color-grey2;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.image3 {
+    width: 100%;
+    height: auto;
 }
 
 /*articles*/
@@ -175,9 +185,16 @@ h2 {
         display: none;
     }
 
+    .image3 {
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width:901px) {
+    body {
+        height:100%;
+    }
    /*header*/
     header {
         border-top: $color-black 0px solid;
@@ -201,5 +218,7 @@ h2 {
         display: none;
     }
 
+    
+    
 
 }

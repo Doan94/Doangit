@@ -77,12 +77,26 @@ a {
 }
 
 /*nav*/
-nav li {
-  display: inline;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-left: 15%;
+nav {
+  background-color: #9c9c9c;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+.image3 {
+  width: 100%;
+  height: auto;
 }
 
 /*articles*/
@@ -201,9 +215,15 @@ h2 {
   nav {
     display: none;
   }
+  .image3 {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 901px) {
+  body {
+    height: 100%;
+  }
   /*header*/
   header {
     border-top: #000000 0px solid;
