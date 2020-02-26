@@ -185,10 +185,15 @@ h2 {
         display: none;
     }
 
+    .video iframe {
+        display: none;
+    }
+    
     .image3 {
         display: none;
     }
 
+    
 }
 
 @media only screen and (min-width:901px) {
@@ -221,8 +226,4 @@ h2 {
     footer {
         margin-top: -4px;
     }
-
-    
-    
-
 }

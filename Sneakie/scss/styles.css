@@ -215,6 +215,9 @@ h2 {
   nav {
     display: none;
   }
+  .video iframe {
+    display: none;
+  }
   .image3 {
     display: none;
   }
