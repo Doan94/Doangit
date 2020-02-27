@@ -108,8 +108,23 @@ nav ul {
 }
 
 /*barre de navigation*/
+.btn-navigation {
+  position: absolute;
+  cursor: pointer;
+}
+
+.btn-navigation .barre {
+  width: 30px;
+  height: 3px;
+  z-index: 20;
+  margin-top: 3px;
+  background-color: #FFFFFF;
+}
+
 .navigation {
   background-color: #eb8585;
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
 }
 
 .navigation ul {
