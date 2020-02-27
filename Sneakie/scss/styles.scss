@@ -1,4 +1,5 @@
 $color-red: #EA3C3C;
+$color-nav: rgb(235, 133, 133);
 $color-white: #FFFFFF;
 $color-black: #000000;
 $color-grey: rgb(218, 216, 216);
@@ -73,6 +74,8 @@ a {
 
 nav {
     background-color: $color-grey;
+    font-family: "centaur";
+    font-size: 22px;
 }
 
 nav ul {
@@ -88,6 +91,22 @@ nav ul {
     margin-bottom: -4px;
 }
 
+/*barre de navigation*/
+.navigation {
+    background-color: $color-nav;
+}
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navigation ul li a {
+    font-family: "centaur";
+    font-size: 15px;
+    text-transform: uppercase;
+}
 /*video*/
 .video {
     background-color: $color-grey2;
@@ -97,9 +116,9 @@ nav ul {
 }
 
 .video iframe {
-    margin-left: 0.33%;
+    margin: 0.33%;
     height: 400px;
-    width: 900px;
+    width: 950px;
 }
 
 .video p {
@@ -129,6 +148,11 @@ nav ul {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
+    font-family: "centaur";
+}
+
+.article, h2 {
+    font-weight: lighter;
 }
 
 .article2 {
@@ -235,6 +259,11 @@ h2 {
     body {
         height:100%;
     }
+
+    .navigation {
+        display: none;
+    }
+
    /*header*/
     header {
         border-top: $color-black 0px solid;

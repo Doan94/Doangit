@@ -84,6 +84,8 @@ a {
 /*nav*/
 nav {
   background-color: #dad8d8;
+  font-family: "centaur";
+  font-size: 22px;
 }
 
 nav ul {
@@ -105,6 +107,30 @@ nav ul {
   margin-bottom: -4px;
 }
 
+/*barre de navigation*/
+.navigation {
+  background-color: #eb8585;
+}
+
+.navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+.navigation ul li a {
+  font-family: "centaur";
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
 /*video*/
 .video {
   background-color: #9c9c9c;
@@ -119,9 +145,9 @@ nav ul {
 }
 
 .video iframe {
-  margin-left: 0.33%;
+  margin: 0.33%;
   height: 400px;
-  width: 900px;
+  width: 950px;
 }
 
 .video p {
@@ -161,6 +187,11 @@ nav ul {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
+  font-family: "centaur";
+}
+
+.article, h2 {
+  font-weight: lighter;
 }
 
 .article2 {
@@ -277,6 +308,9 @@ h2 {
 @media only screen and (min-width: 901px) {
   body {
     height: 100%;
+  }
+  .navigation {
+    display: none;
   }
   /*header*/
   header {
