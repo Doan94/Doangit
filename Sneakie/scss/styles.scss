@@ -95,20 +95,10 @@ nav ul {
 
 .navigation {
     background-color: $color-nav;
-
-
-}
-.navigation ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
-.navigation ul li a {
-    font-family: "centaur";
-    font-size: 15px;
-    text-transform: uppercase;
-}
+
+
 /*video*/
 .video {
     background-color: $color-grey2;
