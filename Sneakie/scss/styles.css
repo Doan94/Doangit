@@ -164,13 +164,11 @@ label {
 
 .video iframe {
   margin: 0.33%;
-  height: 400px;
-  width: 950px;
 }
 
 .video p {
   font-family: "centaur";
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .image4 {
@@ -206,6 +204,11 @@ label {
   margin-right: auto;
   margin-bottom: 15px;
   font-family: "centaur";
+}
+
+.article1 p {
+  margin-top: 5px;
+  text-align: left;
 }
 
 .article, h2 {
@@ -311,7 +314,7 @@ h2 {
 }
 
 /*media queries*/
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 400px) {
   nav {
     display: none;
   }
@@ -323,7 +326,32 @@ h2 {
   }
 }
 
-@media only screen and (min-width: 901px) {
+@media screen and (min-width: 401px) and (max-width: 960px) {
+  nav {
+    display: none;
+  }
+  .video {
+    display: none;
+  }
+  .image3 {
+    display: none;
+  }
+  header {
+    border-top: #000000 0px solid;
+    height: 80px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .article1 {
+    display: none;
+  }
+  .article2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 961px) {
   body {
     height: 100%;
   }
