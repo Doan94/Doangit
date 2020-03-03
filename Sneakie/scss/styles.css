@@ -282,7 +282,7 @@ label {
 /*partie Actu*/
 .actualites2 {
   background-color: #dad8d8;
-  border: 4px solid white;
+  border: 4px solid #FFFFFF;
 }
 
 .actualites2 .news1 {
@@ -312,6 +312,24 @@ label {
 /*Partie sortie*/
 .sortie2 {
   background-color: #9c9c9c;
+  border-right: 4px solid #FFFFFF;
+  border-left: 4px solid #FFFFFF;
+}
+
+.actu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sortie2 .actu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .sortie2 .partie1 {
@@ -322,6 +340,9 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .sortie2 .partie1 .sortie21 {
@@ -332,7 +353,7 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-left: 10%;
+  margin-left: 20px;
 }
 
 .sortie2 .partie1 .sortie22 {
@@ -343,11 +364,7 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-left: 10%;
-}
-
-.sortie2 .partie1 h3 {
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .sortie2 .partie2 {
@@ -358,6 +375,7 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-top: 5px;
 }
 
 .sortie2 .partie2 .sortie23 {
@@ -368,7 +386,7 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-left: 10%;
+  margin-left: 20px;
 }
 
 .sortie2 .partie2 .sortie24 {
@@ -379,10 +397,6 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-left: 10%;
-}
-
-.sortie2 .partie2 h3 {
   margin-left: 20px;
 }
 

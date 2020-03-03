@@ -239,7 +239,7 @@ label {
 /*partie Actu*/
 .actualites2 {
     background-color: $color-grey;
-    border: 4px solid white;
+    border: 4px solid $color-white;
 }
 
 .actualites2 .news1 {
@@ -269,50 +269,62 @@ label {
 /*Partie sortie*/
 .sortie2 {
     background-color: $color-grey2;
-    
+    border-right: 4px solid $color-white;
+    border-left: 4px solid $color-white;
 }
 
+.actu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sortie2 .actu {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .sortie2 .partie1 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .sortie2 .partie1 .sortie21 {
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
+    margin-left: 20px;
 }
 
 .sortie2 .partie1 .sortie22 {
     display: flex;
     flex-direction: row;
-    margin-left:10%;
+    margin-right:20px;
 }
 
 .sortie2 .partie1 h3 {
-    margin-left: 20px;
+    // margin-left: 20px;
 }
 
 .sortie2 .partie2 {
     display: flex;
     flex-direction: row;
+    margin-top:5px;
 }
 
 .sortie2 .partie2 .sortie23 {
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
+    margin-left: 20px;
 }
 
 .sortie2 .partie2 .sortie24 {
     display: flex;
     flex-direction: row;
-    margin-left:10%;
+    margin-left: 20px;
 }
 
 .sortie2 .partie2 h3 {
-    margin-left: 20px;
+    // margin-left: 20px;
 }
  .sortie2 h2 {
      text-align: center;
