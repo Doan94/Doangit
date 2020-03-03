@@ -95,7 +95,6 @@ nav ul {
 
 .navigation {
     background-color: $color-nav;
-    // border-bottom: 1px solid $color-red;
     height: 80px;
     line-height: 40px;
     width: 100%;
@@ -113,14 +112,8 @@ nav ul {
     color: $color-white;
     font-family: "centaur";
     margin: 0 5%;
-    // line-height: 40px;
-    // display: block;
-    // border: 1px solid $color-red;
-    // margin: 5%;
     clear: left;
     float: right;
-    // justify-content: space-between;
-    // position: relative;
 }
 
 label {
@@ -202,7 +195,7 @@ label {
     color: $color-black;
     text-align: center;
     margin-top: -10px;
-    margin-bottom: 5px;
+    margin-bottom: -3px;
     height: 195px;
     margin-left: 2%;
     margin-right: 2%; 
@@ -237,6 +230,95 @@ label {
     width: 130px;
     height: 90px;
 }
+
+/*article ipad*/
+
+.backgroundipad {
+    background-color: $color-white;
+}
+/*partie Actu*/
+.actualites2 {
+    background-color: $color-grey;
+    border: 4px solid white;
+}
+
+.actualites2 .news1 {
+    padding-left: 10px;
+}
+
+.actualites2 h2 {
+    text-align: center;
+}
+
+.actualites2 p {
+    text-align: left;
+}
+
+.actualites2 h3 {
+    text-align: left;
+}
+
+.actualites2, .news1, .news1image {
+    text-align: center;
+    }
+
+.actualites2 .news2 {
+    padding-left: 10px;
+}
+
+/*Partie sortie*/
+.sortie2 {
+    background-color: $color-grey2;
+    
+}
+
+
+.sortie2 .partie1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sortie2 .partie1 .sortie21 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+.sortie2 .partie1 .sortie22 {
+    display: flex;
+    flex-direction: row;
+    margin-left:10%;
+}
+
+.sortie2 .partie1 h3 {
+    margin-left: 20px;
+}
+
+.sortie2 .partie2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sortie2 .partie2 .sortie23 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+.sortie2 .partie2 .sortie24 {
+    display: flex;
+    flex-direction: row;
+    margin-left:10%;
+}
+
+.sortie2 .partie2 h3 {
+    margin-left: 20px;
+}
+ .sortie2 h2 {
+     text-align: center;
+ }
+
+
 
 /*footer*/
 footer {
@@ -291,6 +373,14 @@ h2 {
     .image3 {
         display: none;
     }
+
+    .actualites2 {
+        display: none;
+    }
+
+    .sortie2 {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 401px) and (max-width: 960px) {
@@ -306,12 +396,6 @@ h2 {
         display: none;
     }   
 
-    header {
-        border-top: $color-black 0px solid;
-        height:80px;
-        justify-content: center;
-    }
-
     .article1 {
         display: none;
     }
@@ -320,6 +404,11 @@ h2 {
         display: none;
     }
 
+    header {
+        border-top: $color-black 0px solid;
+        height:80px;
+        justify-content: center;
+    }
 
 }
 
@@ -356,6 +445,19 @@ h2 {
 
     .article2 {
         display: none;
+    }
+
+    .actualites2 {
+        display: none;
+    }
+
+    .sortie2 {
+        display: none;
+    }
+
+    /*footer*/
+    footer {
+        margin-top: -10px;
     }
 
 
