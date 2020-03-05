@@ -376,7 +376,7 @@ h2 {
 
 /*media queries*/
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width:400px) {
     nav, .video, .image3, .actualites2, .sortie2 {
         display: none;
     }
@@ -384,18 +384,19 @@ h2 {
     .menu {
         display: none;
     }
-
     .menu a:hover {
         color: black;
     }
-
     #toggle:checked + .menu {
+        // display:block;
         display: flex;
         flex-direction: column;
-    }   
+    }    
+
+
 }
 
-@media screen and (min-width: 651px) and (max-width: 960px) {
+@media screen and (min-width: 401px) and (max-width: 960px) {
     nav, .video, .image3, .article1, .article2 {
         display: none;
     }
@@ -412,6 +413,7 @@ h2 {
         display: none;
     }
 
+   
    /*header*/
 
     header {
