@@ -296,7 +296,6 @@ label {
 .sortie2 .partie1 .sortie21 {
     display: flex;
     flex-direction: row;
-    // margin-left: 20px;
 }
 
 .sortie2 .partie2 {
@@ -374,45 +373,13 @@ h2 {
 /*media queries*/
 
 @media only screen and (max-width:400px) {
-    nav {
-        display: none;
-    }
-
-    .video {
-        display: none;
-    }
-
-    .image3 {
-        display: none;
-    }
-
-    .actualites2 {
-        display: none;
-    }
-
-    .sortie2 {
+    nav, .video, .image3, .actualites2, .sortie2 {
         display: none;
     }
 }
 
 @media screen and (min-width: 401px) and (max-width: 960px) {
-    nav {
-        display: none;
-    }
-
-    .video {
-        display: none;
-    }
-
-    .image3 {
-        display: none;
-    }   
-
-    .article1 {
-        display: none;
-    }
-
-    .article2 {
+    nav, .video, .image3, .article1, .article2 {
         display: none;
     }
 
@@ -424,14 +391,11 @@ h2 {
 }
 
 @media only screen and (min-width:961px) {
-    body {
-        height:100%;
-    }
-
-    .navigation {
+    .article1, .article2, .actualites2, .sortie2, .navigation {
         display: none;
     }
-    
+
+   
    /*header*/
 
     header {
@@ -446,22 +410,6 @@ h2 {
 
     .name1 {
         font-size: 85px;
-    }
-
-    .article1 {
-        display: none;
-    }
-
-    .article2 {
-        display: none;
-    }
-
-    .actualites2 {
-        display: none;
-    }
-
-    .sortie2 {
-        display: none;
     }
 
     /*footer*/
