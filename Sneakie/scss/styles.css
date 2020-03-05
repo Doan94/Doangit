@@ -314,6 +314,8 @@ label {
   background-color: #9c9c9c;
   border-right: 4px solid #FFFFFF;
   border-left: 4px solid #FFFFFF;
+  margin-top: -22px;
+  margin-bottom: -5px;
 }
 
 .actu {
@@ -400,8 +402,23 @@ label {
   text-align: center;
 }
 
-.sortie2 .actu img {
+.sortie2 .actu #img1 {
   margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.sortie2 .actu #img3 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.sortie2 .actu #img2 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.sortie2 .actu #img4 {
+  margin-left: 52px;
   margin-bottom: 10px;
 }
 
