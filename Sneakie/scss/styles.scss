@@ -376,7 +376,7 @@ h2 {
 
 /*media queries*/
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width: 650px) {
     nav, .video, .image3, .actualites2, .sortie2 {
         display: none;
     }
@@ -396,7 +396,7 @@ h2 {
 
 }
 
-@media screen and (min-width: 401px) and (max-width: 960px) {
+@media screen and (min-width: 651px) and (max-width: 960px) {
     nav, .video, .image3, .article1, .article2 {
         display: none;
     }
