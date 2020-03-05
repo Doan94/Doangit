@@ -242,6 +242,7 @@ label {
 .actualites2 {
     background-color: $color-grey;
     border: 4px solid $color-white;
+    font-family: "centaur";
 }
 
 .actualites2 .news1 {
@@ -250,13 +251,10 @@ label {
 
 .actualites2 h2 {
     text-align: center;
+    font-size: 30px;
 }
 
-.actualites2 p {
-    text-align: left;
-}
-
-.actualites2 h3 {
+.actualites2 p, .actualites2 h3 {
     text-align: left;
 }
 
@@ -276,6 +274,7 @@ label {
     border-left: 4px solid $color-white;
     margin-top: -22px;
     margin-bottom: -5px;
+    font-family: "centaur";
 }
 
 .actu {
@@ -300,12 +299,6 @@ label {
     // margin-left: 20px;
 }
 
-.sortie2 .partie1 .sortie22 {
-    display: flex;
-    flex-direction: row;
-    // margin-left:20px;
-}
-
 .sortie2 .partie2 {
     display: flex;
     flex-direction: row;
@@ -318,14 +311,9 @@ label {
     // margin-left: 20px;
 }
 
-.sortie2 .partie2 .sortie24 {
-    display: flex;
-    flex-direction: row;
-    // margin-left: 20px;
-}
-
  .sortie2 h2 {
      text-align: center;
+     font-size:"centaur"
  }
 
  .sortie2 .actu #img1 {
@@ -333,19 +321,13 @@ label {
      margin-bottom: 10px;
  }
 
- .sortie2 .actu #img3 {
-    margin-left: 30px;
-    margin-bottom: 10px;
- }
-
- .sortie2 .actu #img2 {
-     margin-left: 30px;
-     margin-bottom: 10px;
- }
-
  .sortie2 .actu #img4 {
      margin-left: 52px;
      margin-bottom: 10px;
+ }
+
+ .sortie2 h3 {
+     margin-left: 10px;
  }
 
 /*footer*/
