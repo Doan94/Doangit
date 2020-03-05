@@ -384,9 +384,11 @@ h2 {
     .menu {
         display: none;
     }
+
     .menu a:hover {
         color: black;
     }
+
     #toggle:checked + .menu {
         display: flex;
         flex-direction: column;
@@ -410,7 +412,6 @@ h2 {
         display: none;
     }
 
-   
    /*header*/
 
     header {
